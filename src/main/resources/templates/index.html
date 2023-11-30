@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<!-- xmlns:th~は記載がなくても動作に支障はありませんが、
+    エディターにて構文エラーとしてあつかわれるため必ず記述しましょう -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Hello Spring Boot</title>
+</head>
+<body>
+	<!-- Model属性に追加したmessageを出力します -->
+	<h1 th:text="${message}"></h1>
+</body>
+</html>
